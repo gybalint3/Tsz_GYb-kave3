@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Tsz_GYb_kávé
 {
@@ -22,7 +23,46 @@ namespace Tsz_GYb_kávé
             panel2.Resize += (s, e) => Lekerekitp2(panel2, 10);
             Lekerekitp2(panel2, 10);
 
+            pictureBox7.Image = Image.FromFile(Application.StartupPath + @"\Resources\kave_animacio_3x1.gif");
 
+            pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox7.Visible = true;
+
+            GraphicsPath path = new GraphicsPath();
+
+            int radius = 20;
+
+            path.AddArc(0, 0, radius, radius, 180, 90);
+            path.AddArc(pictureBox7.Width - radius, 0, radius, radius, 270, 90);
+            path.AddArc(pictureBox7.Width - radius, pictureBox7.Height - radius, radius, radius, 0, 90);
+            path.AddArc(0, pictureBox7.Height - radius, radius, radius, 90, 90);
+
+            path.CloseFigure();
+
+            pictureBox7.Region = new Region(path);
+
+
+
+
+            BorderNelkul(this);
+
+        }
+
+        private void BorderNelkul(Control szulo)
+        {
+            foreach (Control vezerlo in szulo.Controls)
+            {
+                if (vezerlo is Button button)
+                {
+                    button.FlatStyle = FlatStyle.Flat;
+                    button.FlatAppearance.BorderSize = 0;
+                }
+
+                if (vezerlo.HasChildren)
+                {
+                    BorderNelkul(vezerlo);
+                }
+            }
         }
 
         private void Form1_Paint(object sender, PaintEventArgs e)
@@ -79,5 +119,18 @@ namespace Tsz_GYb_kávé
             path.Dispose();
         }
 
+        private void textBoxname_Click(object sender, EventArgs e)
+        {
+            textBoxname.Clear();
+            textBoxname.ForeColor = Color.FromArgb(13, 21, 58);
+        }
+
+        private void textBoxpin_Click(object sender, EventArgs e)
+        {
+            textBoxpin.Clear();
+        
+        }
+
+        
     }
 }
