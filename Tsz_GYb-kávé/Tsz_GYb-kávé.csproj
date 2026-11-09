@@ -113,5 +113,10 @@
   <ItemGroup>
     <None Include="Resources\szijjarto.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\kave_animacio_3x1.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

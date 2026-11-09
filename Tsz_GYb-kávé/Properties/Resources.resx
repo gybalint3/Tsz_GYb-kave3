@@ -127,8 +127,11 @@
   <data name="Mészáros" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mészáros.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Mészáros1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mészáros1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="szijjarto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\szijjarto.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BBuUp (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BBuUp (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="címer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\címer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,10 +148,10 @@
   <data name="mester of the mesters" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mester of the mesters.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BBuUp (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BBuUp (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Mészáros1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mészáros1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="szijjarto" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\szijjarto.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="kave_animacio_3x1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kave_animacio_3x1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

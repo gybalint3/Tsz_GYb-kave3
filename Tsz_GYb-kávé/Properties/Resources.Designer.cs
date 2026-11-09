@@ -83,6 +83,16 @@ namespace Tsz_GYb_kávé.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap kave_animacio_3x1 {
+            get {
+                object obj = ResourceManager.GetObject("kave_animacio_3x1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lázár {
             get {
                 object obj = ResourceManager.GetObject("lázár", resourceCulture);
